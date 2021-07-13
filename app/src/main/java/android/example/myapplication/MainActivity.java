@@ -69,15 +69,15 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         mLatLngList = new ArrayList<>();
 
         naverMap.setOnMapClickListener((point, coord) -> {
-                    Marker marker = new Marker();
-                    marker.setPosition(new LatLng(coord.latitude, coord.longitude));
-                    marker.setMap(naverMap);
-                    mMarkerArrayLIst.add(marker);
-                    mLatLngList.add(coord);
-                    if (mLatLngList.size() > 2) {
-                        mPolygon.setCoords(mLatLngList);
-                        mPolygon.setMap(naverMap);
-                    }
+//                    Marker marker = new Marker();
+//                    marker.setPosition(new LatLng(coord.latitude, coord.longitude));
+//                    marker.setMap(naverMap);
+//                    mMarkerArrayLIst.add(marker);
+//                    mLatLngList.add(coord);
+//                    if (mLatLngList.size() > 2) {
+//                        mPolygon.setCoords(mLatLngList);
+//                        mPolygon.setMap(naverMap);
+//                    }
                 }
 
 
